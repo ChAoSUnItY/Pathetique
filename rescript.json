@@ -1,0 +1,23 @@
+{
+    "name": "your-project-name",
+    "sources": [
+        {
+            "dir": "src",
+            "subdirs": true
+        }
+    ],
+    "package-specs": [
+        {
+            "module": "esmodule",
+            "in-source": true
+        }
+    ],
+    "suffix": ".res.mjs",
+    "bsc-flags": [
+        "-open RescriptCore",
+        "-open Belt"
+    ],
+    "bs-dependencies": [
+        "@rescript/core"
+    ]
+}
